@@ -1,0 +1,75 @@
+import math
+import statistics
+x = 5
+y = 9
+
+def sin (x):
+    print(math.sin(x))
+sin(x)   
+
+
+def tan (x):
+    print(math.tan(x))
+tan(x)    
+def cos (x):
+    print(math.cos(x))
+cos(x)
+
+def addition(x, y):
+    print(x + y)
+    return x + y
+addition(x, y)
+
+def subtract(x, y):
+    print(x - y)
+    return(x - y)
+subtract(x, y)
+
+def multiply(x, y):
+    print(x * y)
+    return(x * y)
+multiply(x, y)
+
+def divide(x, y):
+    print(x / y)
+    return(x / y)
+divide(x, y)
+
+def squared(x):
+    print(x * x)
+    return( x * x)
+squared(x)
+
+def squareroot(x):
+    print(x ** 1/2)
+    return( x ** 1/2)
+squareroot(x)
+    
+# def root(n, a):
+#     print()
+    
+def mean(k):
+
+    print(sum(k)/len(k))
+mean([1, 3, 3, 4])
+
+def total(k):
+    print(sum(k))
+total([3,4,6,7])
+
+
+
+def sind(x):
+    print(math.sin(x))
+    return(math.sin(x))
+sind(x)
+
+def tand(x)
+    
+def sind(x):
+    print(math.sin(x))
+    return(math.sin(x))
+sind(x)
+
+def tanr(x):
+    print(math.tan(math.degrees(x)))
